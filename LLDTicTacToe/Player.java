@@ -3,9 +3,9 @@ package com.test;
 public class Player {
 	
 	private String name;
-    private PieceType pieceType;
+    private PieceTypeEnum pieceType;
 
-    public Player(String name, PieceType pieceType) {
+    public Player(String name, PieceTypeEnum pieceType) {
         this.name = name;
         this.pieceType = pieceType;
     }
@@ -14,7 +14,7 @@ public class Player {
         return name;
     }
 
-    public PieceType getPieceType() {
+    public PieceTypeEnum getPieceType() {
         return pieceType;
     }
 }

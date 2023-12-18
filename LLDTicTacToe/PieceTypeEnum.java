@@ -1,11 +1,11 @@
 package com.test;
 
-public enum PieceType {
+public enum PieceTypeEnum {
 	X('X'), O('O');
 
 	private char symbol;
 
-	PieceType(char symbol) {
+	PieceTypeEnum(char symbol) {
 		this.symbol = symbol;
 	}
 
